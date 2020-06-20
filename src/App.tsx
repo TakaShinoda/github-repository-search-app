@@ -1,15 +1,10 @@
 import React from 'react'
-
 // import './App.css';
 
+const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div>Hello GraphQL</div>
-      </header>
-    </div>
-  )
+  return <div>Hello GraphQL</div>
 }
 
 export default App
